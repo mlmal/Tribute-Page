@@ -1,0 +1,176 @@
+/*
+font-family: 'Chelsea Market', cursive;
+font-family: 'Unkempt', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  color: #666;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  margin: 60px 0 10px;
+}
+
+h1 {
+  color: #e7764a;
+  font-family: "Chelsea Market", cursive;
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-family: "Unkempt", cursive;
+  font-size: 2.3rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 60px 0 5px;
+  text-align: center;
+}
+
+a:link {
+  color: #e7764a;
+}
+
+a:visited {
+  color: #e7764a;
+}
+
+a:hover {
+  border: 1px solid;
+  border-color: #b5b473;
+  color: #b5b473;
+}
+
+/* just a list format experiment...
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+ul li::before {
+  color: #e7764a;
+  content: "\25cf";
+  display: inline-block;
+  font-size: 1em;
+  left: -1.1225em;
+  position: absolute;
+}
+
+*/
+
+/*** title and top image section ***/
+
+#title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto 5px;
+}
+
+.tagline {
+  color: #333;
+  font-family: "Unkempt", cursive;
+  font-size: 2.1rem;
+  font-weight: 400;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#img-div {
+  align-items: center;
+  background-color: #cac975;
+  box-shadow: 0 4px 13px #999;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 20px 0 15px;
+  max-width: 100%;
+}
+
+#image {
+  border-radius: 2%;
+  box-shadow: 0 4px 8px black;
+  display: block;
+  height: auto;
+  margin: 30px 0 10px;
+  max-width: 100%;
+  min-width: 300px;
+}
+
+#img-caption {
+  color: #333;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+/*** main content section ***/
+
+.description {
+  color: #666;
+  line-height: 1.4;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#tribute-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 3rem 30px;
+}
+
+.fact-item {
+  line-height: 1.5;
+  list-style-type: square;
+  margin: 10px 2rem 15px;
+}
+
+/*** quote, links/footer, book images section ***/
+
+.quote-box {
+  background-color: #cac975;
+  box-shadow: 0 5px 13px #999;
+  margin: 80px 0 80px 0;
+  padding: 35px 7rem;
+}
+
+.quote-text {
+  color: #333;
+  font-family: "Unkempt", cursive;
+  font-size: 2.2rem;
+}
+
+.quote-ref {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+}
+
+#footer {
+  margin: 20px 5rem 50px;
+  text-align: center;
+}
+
+.novel-images {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 80px 5rem 50px;
+}
+
+.novel-img {
+  height: auto;
+  margin: 5px;
+  width: 100px;
+}
